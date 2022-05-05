@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+body {
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  background: hsla(0, 95%, 5%, 1);
+}
+canvas {
+  background: hsl(214, 88%, 16%);
+  font-family: "Righteous", cursive;
+}
+.countdown:before {
+  color: white;
+  content: '321';
+  font: bold 100px 'Righteous';
+  display:inline-block;
+  width:.85ch;
+  overflow:hidden;
+
+  /*-webkit-animation:countdowns 3s steps(3) infinite;*/
+  /*-moz-animation:countdowns 3s steps(3) infinite;*/
+  /*-ms-animation:countdowns 3s steps(3) infinite;*/
+  /*-o-animation:countdowns 3s steps(3) infinite;*/
+  animation:countdowns 4s steps(4) forwards;
+}
+
+/*@-webkit-keyframes countdowns {*/
+/*  0% {text-indent:0}*/
+/*  100% {text-indent:-3ch;}*/
+/*}*/
+@-moz-keyframes countdowns {
+  0% {text-indent:0}
+  100% {text-indent:-4ch;}
+}
+/*@-ms-keyframes countdowns {*/
+/*  0% {text-indent:0}*/
+/*  100% {text-indent:-3ch;}*/
+/*}*/
+/*@-o-keyframes countdowns {*/
+/*  0% {text-indent:0}*/
+/*  100% {text-indent:-3ch;}*/
+/*}*/
+/*@keyframes countdowns {*/
+/*  0% {text-indent:0}*/
+/*  100% {text-indent:-3ch;}*/
+/*}*/
